@@ -2,6 +2,11 @@ NEWS - list of user-visible changes between releases of GNU Libtool
 
 * Noteworthy changes in release ?.? (????-??-??) [?]
 
+** New features:
+
+  - Pass through -fno-lto and -ffixed=* to disable link-time optimization
+    and reserve registers.
+
 ** Changes in supported systems or compilers:
 
   - Support AOCC Fortran compiler 'aof'.
